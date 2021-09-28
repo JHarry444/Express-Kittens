@@ -14,8 +14,9 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/kitten', kittenRouter);
 
-app.use(({status, message}, req, res, next) => {
-    res.status(status).send(message);
+// eslint-disable-next-line no-unused-vars
+app.use(({ status, message }, req, res, _next) => {
+  res.status(status).send(message);
 });
 
 module.exports = app;
