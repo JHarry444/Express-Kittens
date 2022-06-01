@@ -18,7 +18,7 @@
   "name": String,
   "age": Number,
   "breed": String,
-  "cuteness": String
+  "cuteness": Number
 }
 ```
 
