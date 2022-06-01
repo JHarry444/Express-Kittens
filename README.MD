@@ -12,7 +12,7 @@
 
 ### CREATE
 
-**POST** `htttp://localhost:4494/kitten/create`
+**POST** `http://localhost:4494/kitten/create`
 
 ```JSON
 {
