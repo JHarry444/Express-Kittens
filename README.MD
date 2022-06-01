@@ -5,7 +5,8 @@
 1.  Clone the repo.
 2.  Open the folder in git bash.
 3.  Run `npm install`.
-4.  Run `npm start`.
+4.  Run `npm install -g nodemon`
+5.  Run `npm start`.
 
 ## Endpoints
 
