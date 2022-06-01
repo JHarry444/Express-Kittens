@@ -25,7 +25,9 @@
 ### READ
 
 **GET** `http://localhost:4494/kitten/getAll`
+
 **GET** `http://localhost:4494/kitten/getByName/:name`
+
 **GET** `http://localhost:4494/kitten/get/:id`
 
 ### DELETE
